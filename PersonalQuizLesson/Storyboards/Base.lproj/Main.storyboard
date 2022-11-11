@@ -337,6 +337,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="commentLabel" destination="Z2V-jP-QLp" id="P8S-aZ-JYA"/>
                         <outlet property="resultLabel" destination="fUJ-O0-Geb" id="ZWc-bX-Z27"/>
                     </connections>
                 </viewController>

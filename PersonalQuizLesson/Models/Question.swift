@@ -42,6 +42,28 @@ enum Animal: Character {
     }
 }
 
+
+enum CommentAnimal {
+    case dog
+    case cat
+    case rabbit
+    case turtle
+    
+    var comment: String {
+        switch self {
+        case .dog:
+            return "Вы прекрасный друг и хороший товарищ!"
+        case .cat:
+            return "Вы домашний питомец, любящий греться под одеялком, но всегда готовый прийти на помощь!"
+        case .rabbit:
+            return "Вы ведете здоровый образ жизни! (А если нет, но явно у нему стремитесь!)"
+        case .turtle:
+            return "Ваша жизнь максимально размеренна, вы никогда никуда не спешите и наслаждаетесь жизнью!"
+        }
+    }
+}
+
+
 extension Question {
     static func getQuestions() -> [Question] {
         [
