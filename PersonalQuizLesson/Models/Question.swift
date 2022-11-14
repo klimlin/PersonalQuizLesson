@@ -31,27 +31,6 @@ enum Animal: Character {
     var definition: String {
         switch self {
         case .dog:
-            return "🐶"
-        case .cat:
-            return "🐱"
-        case .rabbit:
-            return "🐰"
-        case .turtle:
-            return "🐢"
-        }
-    }
-}
-
-
-enum CommentAnimal {
-    case dog
-    case cat
-    case rabbit
-    case turtle
-    
-    var comment: String {
-        switch self {
-        case .dog:
             return "Вы прекрасный друг и хороший товарищ!"
         case .cat:
             return "Вы домашний питомец, любящий греться под одеялком, но всегда готовый прийти на помощь!"
@@ -62,6 +41,27 @@ enum CommentAnimal {
         }
     }
 }
+
+
+//enum CommentAnimal {
+//    case dog
+//    case cat
+//    case rabbit
+//    case turtle
+//    
+//    var comment: String {
+//        switch self {
+//        case .dog:
+//            return "Вы прекрасный друг и хороший товарищ!"
+//        case .cat:
+//            return "Вы домашний питомец, любящий греться под одеялком, но всегда готовый прийти на помощь!"
+//        case .rabbit:
+//            return "Вы ведете здоровый образ жизни! (А если нет, то явно к нему стремитесь!)"
+//        case .turtle:
+//            return "Ваша жизнь максимально размеренна, вы никогда никуда не спешите и наслаждаетесь жизнью!"
+//        }
+//    }
+//}
 
 
 extension Question {
